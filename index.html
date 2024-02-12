@@ -1,11 +1,20 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
+<head>
+    <meta charset="UTF-8">
     <title>Dice Roller</title>
-	
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-	<h1>Dice Roller</h1>
+    <div class="container">
+        <h1>Dice Roller</h1>
+        <p>Click the "Roll Dice" button below to see what your numerical value is.</p>
+        <div id="diceResult">
+            <label for="diceValue">Dice Value:</label>
+            <input type="text" id="diceValue" readonly>
+            <button id="rollButton">Roll Dice</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
